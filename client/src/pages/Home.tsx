@@ -12,7 +12,7 @@ import { Heart, MessageCircle, Lightbulb } from "lucide-react";
 export default function Home() {
   // WhatsApp e formulário configurados
   const whatsappLink = "https://wa.me/5514998804890?text=Olá%20Rafael,%20gostaria%20de%20agendar%20uma%20triagem";
-  const formLink = "https://forms.google.com/seu-formulario"; // TODO: Adicionar link do formulário
+  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSe9a__nt02nsYDgota8MQAdorbjYwnrN_lFJMSgQYScUMzoTg/viewform?usp=sharing&ouid=105183272294207868106";
 
   return (
     <div className="min-h-screen bg-[#F8F6F1]">
@@ -43,9 +43,9 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-[#A8D5BA] hover:bg-[#8BC9A8] text-white font-semibold px-8 py-3 rounded-lg transition-all duration-250 hover:scale-105"
-                onClick={() => window.location.href = whatsappLink}
+                onClick={() => window.location.href = formLink}
               >
-                Agendar uma triagem
+                Formulário de triagem
               </Button>
               <Button
                 size="lg"
@@ -344,13 +344,23 @@ export default function Home() {
               Agende uma triagem inicial para avaliar a demanda e entender qual caminho de cuidado pode ser mais adequado.
             </p>
 
-            <Button
-              size="lg"
-              className="bg-[#A8D5BA] hover:bg-[#8BC9A8] text-white font-semibold px-8 py-3 rounded-lg transition-all duration-250 hover:scale-105"
-              onClick={() => window.location.href = whatsappLink}
-            >
-              Agendar triagem pelo WhatsApp
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                size="lg"
+                className="bg-[#A8D5BA] hover:bg-[#8BC9A8] text-white font-semibold px-8 py-3 rounded-lg transition-all duration-250 hover:scale-105"
+                onClick={() => window.location.href = formLink}
+              >
+                Formulário de triagem
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-[#A8D5BA] text-[#A8D5BA] hover:bg-[#F0EDE8] font-semibold px-8 py-3 rounded-lg transition-all duration-250"
+                onClick={() => window.location.href = whatsappLink}
+              >
+                Agendar pelo WhatsApp
+              </Button>
+            </div>
           </div>
         </div>
       </section>
