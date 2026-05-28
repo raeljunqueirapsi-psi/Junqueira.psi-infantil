@@ -10,9 +10,9 @@ import { Heart, MessageCircle, Lightbulb } from "lucide-react";
  */
 
 export default function Home() {
-  // TODO: Substituir pelos links reais do WhatsApp e formulário
-  const whatsappLink = "https://wa.me/SEUCELULAR?text=Olá%20Rafael,%20gostaria%20de%20agendar%20uma%20triagem";
-  const formLink = "https://forms.google.com/seu-formulario";
+  // WhatsApp e formulário configurados
+  const whatsappLink = "https://wa.me/5514998804890?text=Olá%20Rafael,%20gostaria%20de%20agendar%20uma%20triagem";
+  const formLink = "https://forms.google.com/seu-formulario"; // TODO: Adicionar link do formulário
 
   return (
     <div className="min-h-screen bg-[#F8F6F1]">
@@ -20,7 +20,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
         style={{
-          backgroundImage: "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663708373675/3awDf8JWJAjhJp9NEo8Fe4/hero-background-nCAjG2svXH7msQJNeXRp7W.webp')",
+          backgroundImage: "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663708373675/3awDf8JWJAjhJp9NEo8Fe4/hero-background-new-5yHzdn2DGsjfdd73avjzJd.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -180,7 +180,7 @@ export default function Home() {
             <div
               className="relative h-96 rounded-lg overflow-hidden mb-10"
               style={{
-                backgroundImage: "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663708373675/3awDf8JWJAjhJp9NEo8Fe4/emotional-landscape-A4qBAJeq3nE9sfWvfDo34c.webp')",
+                backgroundImage: "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663708373675/3awDf8JWJAjhJp9NEo8Fe4/emotional-landscape-new-JMtASSEvBWtdcdoG4quvZN.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -284,7 +284,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <div className="w-64 h-64 rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663708373675/3awDf8JWJAjhJp9NEo8Fe4/about-section-image-FJVxtfsAuApEUz7YkUCibw.webp"
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663708373675/JkqOjeHIzgTZClJr.png"
                     alt="Rafael Junqueira - Psicólogo Infantil"
                     className="w-full h-full object-cover"
                   />
@@ -315,8 +315,8 @@ export default function Home() {
                   </p>
                   <p className="text-[#8B8B8B]">
                     <strong className="text-[#2C2C2C]">Instagram:</strong>{" "}
-                    <a href="https://instagram.com/rael.junqueirapsi" target="_blank" rel="noopener noreferrer" className="text-[#A8D5BA] hover:text-[#8BC9A8]">
-                      @rael.junqueirapsi
+                    <a href="https://instagram.com/psico.educa_junqueira" target="_blank" rel="noopener noreferrer" className="text-[#A8D5BA] hover:text-[#8BC9A8]">
+                      @psico.educa_junqueira
                     </a>
                   </p>
                   <p className="text-[#8B8B8B]">
@@ -374,8 +374,8 @@ export default function Home() {
                 <h3 className="font-semibold mb-4">Contato</h3>
                 <p className="text-sm text-gray-300 mb-2">
                   Instagram:{" "}
-                  <a href="https://instagram.com/rael.junqueirapsi" target="_blank" rel="noopener noreferrer" className="text-[#A8D5BA] hover:text-white">
-                    @rael.junqueirapsi
+                  <a href="https://instagram.com/psico.educa_junqueira" target="_blank" rel="noopener noreferrer" className="text-[#A8D5BA] hover:text-white">
+                    @psico.educa_junqueira
                   </a>
                 </p>
                 <p className="text-sm text-gray-300">
